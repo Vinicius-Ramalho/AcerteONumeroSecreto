@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --cor-primaria: #1e2124;
+    --cor-fundo: #7289da;
+    
+    --fundo-acerto: #25d366;
+    --cor-acerto: #ece5dd;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.acertou{
+    background-color: var(--fundo-acerto);
+    color: var(--cor-acerto);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.btn-jogar{
+    display: block;
+    padding: 8px 15px;
+    border: none;
+    background-color: var(--cor-acerto);
+    color: var(--fundo-acerto);
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: .6em;
+    cursor: pointer;
+}
